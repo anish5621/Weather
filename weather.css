@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    color: #410336;
+    height: 100vh;
+    
+}
+
+.wrapper {
+    background-color: #e2e4e5;
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    padding: 15px;
+    outline: none;
+    width: 25rem;
+    border-radius: 8px;
+    outline: none;
+
+    border: 2px solid #5c3a30;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #5c3a30;
+}
+
+button i {
+    font-size: 27px;
+    color: #5c3a30;
+    padding: 10px 15px;
+    transition: all 0.2s ease;
+    border-radius: 4px;
+}
+
+button i:hover {
+    background-color: #5c3a30;
+    color: #e2e4e5;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 30rem;
+}
+
+.information img {
+    height: 10rem;
+    width: 10rem;
+}
+
+#city {
+    font-weight: 600;
+}
+#null{
+    display: none;
+}
+#errorMsg{
+    display: none;
+}
+
+
+.information #temp {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.weather {
+    margin-top: 2rem;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather span {
+    text-decoration: overline;
+}
+
+.hue {
+    display: flex;
+}
+
+.sun {
+    background-color: #4b0135;
+    color: #e2e4e5;
+    border-radius: 10px;
+    width: 130%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10rem;
+    height: 9rem;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sunBox {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
